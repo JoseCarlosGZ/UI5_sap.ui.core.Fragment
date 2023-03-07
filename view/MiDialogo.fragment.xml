@@ -1,0 +1,12 @@
+<!-- //! Los fragmentos no tienen su propio controlador sino que usan el mismo de la vista que los llama -->
+<!-- //! Los fragmentos tienen acceso a los mismos modelos de la vista a la que está asociados. En este ejemplo vemos como se accede a "MiModelo" que está seteado en el onInit() de app.controller.js -->
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core"  >
+    <Dialog  id="id_MiDialogo" title="Hola {MiModelo>/resultSet/1/name}">
+        <content>
+            <core:Icon src="sap-icon://hello-world" size="8rem"/>
+        </content>
+        <endButton>
+            <Button text="{i18n>dialogCloseBut}" press=".onCloseDialog"></Button>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>
