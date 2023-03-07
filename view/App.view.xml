@@ -4,7 +4,7 @@
             <pages>
                 <Page title="{i18n>appTitle}">
                     <content>
-                        <Button id="helloDialogButton" icon="sap-icon://action" text="{i18n>helloDialogBut}" press=".onOpenDialog" class="sapUiMediumMargin" />
+                        <Button id="helloDialogButton" icon="sap-icon://action" text="{i18n>btnOpenMiDialogo}" press=".onOpenDialog" class="sapUiMediumMargin" />
                     </content>
                 </Page>
             </pages>
